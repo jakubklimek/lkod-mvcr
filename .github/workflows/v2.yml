@@ -14,4 +14,4 @@ jobs:
     - name: Data validator
       uses: opendata-mvcr/data-validator/github@master
       with:
-        configuration: config.ttl
+        configuration: https://raw.githubusercontent.com/jakubklimek/lkod-mvcr/master/.github/workflows/config.ttl
